@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_timingSequence_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_timingSequence" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="510.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="2,230.001 ns"></ZoomEndTime>
+      <Cursor1Time time="1,020.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="255"></NameColumnWidth>
+      <ValueColumnWidth column_width="123"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="56" />
+   <wave_markers>
+      <marker label="" time="920000" />
+   </wave_markers>
+   <wvobject type="logic" fp_name="/tb_timingSequence/inst_timingSequence/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_timingSequence/inst_timingSequence/resetn">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/index_length">
+      <obj_property name="ElementShortName">index_length[31:0]</obj_property>
+      <obj_property name="ObjectShortName">index_length[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/index_AO_length">
+      <obj_property name="ElementShortName">index_AO_length[31:0]</obj_property>
+      <obj_property name="ObjectShortName">index_AO_length[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_timingSequence/inst_timingSequence/continuous">
+      <obj_property name="ElementShortName">continuous</obj_property>
+      <obj_property name="ObjectShortName">continuous</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_timingSequence/inst_timingSequence/load">
+      <obj_property name="ElementShortName">load</obj_property>
+      <obj_property name="ObjectShortName">load</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_timingSequence/inst_timingSequence/start">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/repeat_number">
+      <obj_property name="ElementShortName">repeat_number[31:0]</obj_property>
+      <obj_property name="ObjectShortName">repeat_number[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_timingSequence/inst_timingSequence/ram_clk">
+      <obj_property name="ElementShortName">ram_clk</obj_property>
+      <obj_property name="ObjectShortName">ram_clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/ram_timing">
+      <obj_property name="ElementShortName">ram_timing[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_timing[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/ram_DO">
+      <obj_property name="ElementShortName">ram_DO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_DO[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/ram_addr">
+      <obj_property name="ElementShortName">ram_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/ram_we">
+      <obj_property name="ElementShortName">ram_we[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_we[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_timingSequence/inst_timingSequence/ram_en">
+      <obj_property name="ElementShortName">ram_en</obj_property>
+      <obj_property name="ObjectShortName">ram_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_timingSequence/inst_timingSequence/ram_reset">
+      <obj_property name="ElementShortName">ram_reset</obj_property>
+      <obj_property name="ObjectShortName">ram_reset</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/ram_AO_start_step_c0">
+      <obj_property name="ElementShortName">ram_AO_start_step_c0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_AO_start_step_c0[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/ram_AO_start_step_c1">
+      <obj_property name="ElementShortName">ram_AO_start_step_c1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_AO_start_step_c1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/ram_AO_start_step_c2">
+      <obj_property name="ElementShortName">ram_AO_start_step_c2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_AO_start_step_c2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/ram_AO_start_step_c3">
+      <obj_property name="ElementShortName">ram_AO_start_step_c3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_AO_start_step_c3[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/ram_AO_start_step_c4">
+      <obj_property name="ElementShortName">ram_AO_start_step_c4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_AO_start_step_c4[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/ram_AO_start_step_c5">
+      <obj_property name="ElementShortName">ram_AO_start_step_c5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_AO_start_step_c5[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/ram_AO_start_step_c6">
+      <obj_property name="ElementShortName">ram_AO_start_step_c6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_AO_start_step_c6[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/ram_AO_start_step_c7">
+      <obj_property name="ElementShortName">ram_AO_start_step_c7[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_AO_start_step_c7[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/ram_AO_type_c0">
+      <obj_property name="ElementShortName">ram_AO_type_c0[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_AO_type_c0[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/ram_AO_type_c1">
+      <obj_property name="ElementShortName">ram_AO_type_c1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_AO_type_c1[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/ram_AO_type_c2">
+      <obj_property name="ElementShortName">ram_AO_type_c2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_AO_type_c2[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/ram_AO_type_c3">
+      <obj_property name="ElementShortName">ram_AO_type_c3[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_AO_type_c3[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/ram_AO_type_c4">
+      <obj_property name="ElementShortName">ram_AO_type_c4[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_AO_type_c4[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/ram_AO_type_c5">
+      <obj_property name="ElementShortName">ram_AO_type_c5[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_AO_type_c5[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/ram_AO_type_c6">
+      <obj_property name="ElementShortName">ram_AO_type_c6[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_AO_type_c6[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/ram_AO_type_c7">
+      <obj_property name="ElementShortName">ram_AO_type_c7[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_AO_type_c7[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/ram_AO_addr">
+      <obj_property name="ElementShortName">ram_AO_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_AO_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/AO_index">
+      <obj_property name="ElementShortName">AO_index[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AO_index[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/DO">
+      <obj_property name="ElementShortName">DO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DO[31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/AO_c0">
+      <obj_property name="ElementShortName">AO_c0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">AO_c0[15:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/AO_c1">
+      <obj_property name="ElementShortName">AO_c1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">AO_c1[15:0]</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/AO_c2">
+      <obj_property name="ElementShortName">AO_c2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">AO_c2[15:0]</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/AO_c3">
+      <obj_property name="ElementShortName">AO_c3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">AO_c3[15:0]</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/AO_c4">
+      <obj_property name="ElementShortName">AO_c4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">AO_c4[15:0]</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/AO_c5">
+      <obj_property name="ElementShortName">AO_c5[15:0]</obj_property>
+      <obj_property name="ObjectShortName">AO_c5[15:0]</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/AO_c6">
+      <obj_property name="ElementShortName">AO_c6[15:0]</obj_property>
+      <obj_property name="ObjectShortName">AO_c6[15:0]</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/AO_c7">
+      <obj_property name="ElementShortName">AO_c7[15:0]</obj_property>
+      <obj_property name="ObjectShortName">AO_c7[15:0]</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_timingSequence/inst_timingSequence/load_d0">
+      <obj_property name="ElementShortName">load_d0</obj_property>
+      <obj_property name="ObjectShortName">load_d0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_timingSequence/inst_timingSequence/load_d1">
+      <obj_property name="ElementShortName">load_d1</obj_property>
+      <obj_property name="ObjectShortName">load_d1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_timingSequence/inst_timingSequence/reload">
+      <obj_property name="ElementShortName">reload</obj_property>
+      <obj_property name="ObjectShortName">reload</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_timingSequence/inst_timingSequence/start_d0">
+      <obj_property name="ElementShortName">start_d0</obj_property>
+      <obj_property name="ObjectShortName">start_d0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_timingSequence/inst_timingSequence/start_d1">
+      <obj_property name="ElementShortName">start_d1</obj_property>
+      <obj_property name="ObjectShortName">start_d1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_timingSequence/inst_timingSequence/restart">
+      <obj_property name="ElementShortName">restart</obj_property>
+      <obj_property name="ObjectShortName">restart</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_timingSequence/inst_timingSequence/output_state">
+      <obj_property name="ElementShortName">output_state</obj_property>
+      <obj_property name="ObjectShortName">output_state</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/repeat_index">
+      <obj_property name="ElementShortName">repeat_index[31:0]</obj_property>
+      <obj_property name="ObjectShortName">repeat_index[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/counter">
+      <obj_property name="ElementShortName">counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/state">
+      <obj_property name="ElementShortName">state[31:0]</obj_property>
+      <obj_property name="ObjectShortName">state[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/AO_step_index">
+      <obj_property name="ElementShortName">AO_step_index[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AO_step_index[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/counter_AO">
+      <obj_property name="ElementShortName">counter_AO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_AO[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_timingSequence/inst_timingSequence/output_stateAO">
+      <obj_property name="ElementShortName">output_stateAO</obj_property>
+      <obj_property name="ObjectShortName">output_stateAO</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_timingSequence/inst_timingSequence/AO_timeStep">
+      <obj_property name="ElementShortName">AO_timeStep[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AO_timeStep[31:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,35 @@
+verilog xil_defaultlib --include "/home/oonfongenmain/Xilinx/Vivado/2023.2/data/xilinx_vip/include" --include "../../../../laserLeadLagSimulator.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../laserLeadLagSimulator.gen/sources_1/bd/design_1/ipshared/6b2b/hdl" --include "../../../../laserLeadLagSimulator.gen/sources_1/bd/design_1/ipshared/434f/hdl" --include "../../../../laserLeadLagSimulator.gen/sources_1/bd/design_1/ipshared/c2c6" \
+"../../../bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v" \
+"../../../bd/design_1/ip/design_1_xbar_2/sim/design_1_xbar_2.v" \
+"../../../bd/design_1/ip/design_1_xbar_3/sim/design_1_xbar_3.v" \
+"../../../bd/design_1/ip/design_1_xlconcat_0_1/sim/design_1_xlconcat_0_1.v" \
+"../../../bd/design_1/ip/design_1_axis_data_fifo_0_0/sim/design_1_axis_data_fifo_0_0.v" \
+"../../../bd/design_1/ipshared/88c5/hdl/triangularWave_v1_0_S00_AXI.v" \
+"../../../bd/design_1/ipshared/88c5/src/triangularWave.v" \
+"../../../bd/design_1/ipshared/88c5/hdl/triangularWave_v1_0.v" \
+"../../../bd/design_1/ip/design_1_triangularWave_0_0/sim/design_1_triangularWave_0_0.v" \
+"../../../bd/design_1/ipshared/cada/hdl/signalGainOffset_v1_0_S00_AXI.v" \
+"../../../bd/design_1/ipshared/cada/hdl/signalGainOffset.v" \
+"../../../bd/design_1/ipshared/cada/hdl/signalGainOffset_v1_0.v" \
+"../../../bd/design_1/ip/design_1_signalGainOffset_0_0/sim/design_1_signalGainOffset_0_0.v" \
+"../../../bd/design_1/ipshared/08cb/hdl/signalProbes_v1_0_S00_AXI.v" \
+"../../../bd/design_1/ipshared/08cb/hdl/signalProbes_v1_0.v" \
+"../../../bd/design_1/ip/design_1_signalProbes_0_0/sim/design_1_signalProbes_0_0.v" \
+"../../../bd/design_1/ipshared/82ea/src/dualSampling.v" \
+"../../../bd/design_1/ip/design_1_dualSampling_0_1/sim/design_1_dualSampling_0_1.v" \
+"../../../bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v" \
+"../../../bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v" \
+"../../../bd/design_1/ipshared/09cf/hdl/leadLag_v1_0_S00_AXI.v" \
+"../../../bd/design_1/ipshared/09cf/src/leadLag_50MHz.v" \
+"../../../bd/design_1/ipshared/09cf/hdl/leadLag_v1_0.v" \
+"../../../bd/design_1/ip/design_1_leadLag_0_1/sim/design_1_leadLag_0_1.v" \
+"../../../bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v" \
+"../../../bd/design_1/ip/design_1_auto_us_0/sim/design_1_auto_us_0.v" \
+"../../../bd/design_1/ip/design_1_auto_us_1/sim/design_1_auto_us_1.v" \
+"../../../bd/design_1/ip/design_1_auto_pc_1/sim/design_1_auto_pc_1.v" \
+"../../../bd/design_1/sim/design_1.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

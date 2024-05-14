@@ -1,0 +1,18 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/fongen/Xilinx/Vivado/2023.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_timingSequence_behav xil_defaultlib.tb_timingSequence xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 4 for port 'ram_we' [/home/fongen/vivadoSync/timingSequence/timingSequence.srcs/sim_1/new/tb_timingSequence.v:116]
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 4 for port 'ram_we' [/home/fongen/vivadoSync/timingSequence/timingSequence.srcs/sim_1/new/tb_timingSequence.v:173]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.timingSequence
+Compiling module xil_defaultlib.ramSimulation_default
+Compiling module xil_defaultlib.tb_timingSequence
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_timingSequence_behav

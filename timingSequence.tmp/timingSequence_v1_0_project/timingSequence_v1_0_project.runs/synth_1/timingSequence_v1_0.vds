@@ -1,0 +1,234 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue May 14 11:30:57 2024
+# Process ID: 33426
+# Current directory: /home/fongen/vivadoSync/timingSequence/timingSequence.tmp/timingSequence_v1_0_project/timingSequence_v1_0_project.runs/synth_1
+# Command line: vivado -log timingSequence_v1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source timingSequence_v1_0.tcl
+# Log file: /home/fongen/vivadoSync/timingSequence/timingSequence.tmp/timingSequence_v1_0_project/timingSequence_v1_0_project.runs/synth_1/timingSequence_v1_0.vds
+# Journal file: /home/fongen/vivadoSync/timingSequence/timingSequence.tmp/timingSequence_v1_0_project/timingSequence_v1_0_project.runs/synth_1/vivado.jou
+# Running On: fongen, OS: Linux, CPU Frequency: 3300.000 MHz, CPU Physical cores: 4, Host memory: 16540 MB
+#-----------------------------------------------------------
+source timingSequence_v1_0.tcl -notrace
+CRITICAL WARNING: [Common 17-1355] You are suppressing all messages of type 'WARNING'. You may potentially disregard important DRC, CDC, and implementation messages that can negatively impact your design.  If this is not desired, please run 'reset_msg_config -suppress -severity {WARNING}' to undo this change.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/fongen/ipSync'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/fongen/Xilinx/Vivado/2023.2/data/ip'.
+Command: synth_design -top timingSequence_v1_0 -part xc7z020clg400-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 33457
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1708.688 ; gain = 416.621 ; free physical = 6485 ; free virtual = 12991
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'timingSequence_v1_0' [/home/fongen/ipSync/timingSequence_1_0/hdl/timingSequence_v1_0.v:4]
+INFO: [Synth 8-6157] synthesizing module 'timingSequence_v1_0_S00_AXI' [/home/fongen/ipSync/timingSequence_1_0/hdl/timingSequence_v1_0_S00_AXI.v:4]
+	Parameter AO_timeStep bound to: 10 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-226] default block is never used [/home/fongen/ipSync/timingSequence_1_0/hdl/timingSequence_v1_0_S00_AXI.v:279]
+INFO: [Synth 8-226] default block is never used [/home/fongen/ipSync/timingSequence_1_0/hdl/timingSequence_v1_0_S00_AXI.v:452]
+INFO: [Synth 8-6157] synthesizing module 'timingSequence' [/home/fongen/ipSync/timingSequence_1_0/src/timingSequence.v:23]
+	Parameter AO_timeStep bound to: 10 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [/home/fongen/ipSync/timingSequence_1_0/src/timingSequence.v:171]
+INFO: [Synth 8-6155] done synthesizing module 'timingSequence' (0#1) [/home/fongen/ipSync/timingSequence_1_0/src/timingSequence.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'timingSequence_v1_0_S00_AXI' (0#1) [/home/fongen/ipSync/timingSequence_1_0/hdl/timingSequence_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'timingSequence_v1_0' (0#1) [/home/fongen/ipSync/timingSequence_1_0/hdl/timingSequence_v1_0.v:4]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1788.656 ; gain = 496.590 ; free physical = 6381 ; free virtual = 12886
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1806.469 ; gain = 514.402 ; free physical = 6380 ; free virtual = 12884
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1814.473 ; gain = 522.406 ; free physical = 6380 ; free virtual = 12884
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-2
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'timingSequence'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                               00 | 00000000000000000000000000000000
+                 iSTATE0 |                               01 | 00000000000000000000000000000001
+                 iSTATE1 |                               10 | 00000000000000000000000000000010
+                 iSTATE2 |                               11 | 00000000000000000000000000000011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'timingSequence'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1823.379 ; gain = 531.312 ; free physical = 6356 ; free virtual = 12863
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 5     
+	   2 Input    4 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 14    
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 12    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 11    
+	   5 Input   32 Bit        Muxes := 1     
+	   4 Input   32 Bit        Muxes := 2     
+	   8 Input   32 Bit        Muxes := 8     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 17    
+	   4 Input    1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2003.660 ; gain = 711.594 ; free physical = 6132 ; free virtual = 12674
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2003.660 ; gain = 711.594 ; free physical = 6132 ; free virtual = 12674
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2003.660 ; gain = 711.594 ; free physical = 6131 ; free virtual = 12673
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2003.660 ; gain = 711.594 ; free physical = 6146 ; free virtual = 12688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2003.660 ; gain = 711.594 ; free physical = 6146 ; free virtual = 12688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2003.660 ; gain = 711.594 ; free physical = 6146 ; free virtual = 12688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2003.660 ; gain = 711.594 ; free physical = 6146 ; free virtual = 12688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2003.660 ; gain = 711.594 ; free physical = 6146 ; free virtual = 12688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2003.660 ; gain = 711.594 ; free physical = 6146 ; free virtual = 12688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |   102|
+|3     |LUT1   |    98|
+|4     |LUT2   |    40|
+|5     |LUT3   |     8|
+|6     |LUT4   |   276|
+|7     |LUT5   |    45|
+|8     |LUT6   |   228|
+|9     |MUXF7  |    32|
+|10    |FDRE   |   663|
+|11    |FDSE   |     1|
+|12    |IBUF   |   387|
+|13    |OBUF   |   272|
++------+-------+------+
+
+Report Instance Areas: 
++------+-----------------------------------+----------------------------+------+
+|      |Instance                           |Module                      |Cells |
++------+-----------------------------------+----------------------------+------+
+|1     |top                                |                            |  2154|
+|2     |  timingSequence_v1_0_S00_AXI_inst |timingSequence_v1_0_S00_AXI |  1493|
+|3     |    inst_timingSequence            |timingSequence              |  1056|
++------+-----------------------------------+----------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2003.660 ; gain = 711.594 ; free physical = 6146 ; free virtual = 12688
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 14 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2003.660 ; gain = 711.594 ; free physical = 6146 ; free virtual = 12688
+Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2003.668 ; gain = 711.594 ; free physical = 6146 ; free virtual = 12688
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2003.668 ; gain = 0.000 ; free physical = 6430 ; free virtual = 12973
+INFO: [Netlist 29-17] Analyzing 134 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2120.469 ; gain = 0.000 ; free physical = 6376 ; free virtual = 12932
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 695b62c9
+INFO: [Common 17-83] Releasing license: Synthesis
+26 Infos, 0 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 2120.504 ; gain = 834.375 ; free physical = 6375 ; free virtual = 12932
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1686.344; main = 1403.288; forked = 384.147
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3000.953; main = 2120.473; forked = 997.289
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2144.480 ; gain = 0.000 ; free physical = 6375 ; free virtual = 12932
+INFO: [Common 17-1381] The checkpoint '/home/fongen/vivadoSync/timingSequence/timingSequence.tmp/timingSequence_v1_0_project/timingSequence_v1_0_project.runs/synth_1/timingSequence_v1_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file timingSequence_v1_0_utilization_synth.rpt -pb timingSequence_v1_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue May 14 11:31:15 2024...

@@ -1,0 +1,5 @@
+dataSampling_100kHz_v1_0_S00_AXI.v,verilog,xil_defaultlib,../../../../laserLockingSimulator.gen/sources_1/ip/dataSampling_100kHz_0_1/hdl/dataSampling_100kHz_v1_0_S00_AXI.v,
+dataSampling.v,verilog,xil_defaultlib,../../../../laserLockingSimulator.gen/sources_1/ip/dataSampling_100kHz_0_1/hdl/dataSampling.v,
+dataSampling_100kHz_v1_0.v,verilog,xil_defaultlib,../../../../laserLockingSimulator.gen/sources_1/ip/dataSampling_100kHz_0_1/hdl/dataSampling_100kHz_v1_0.v,
+dataSampling_100kHz_0.v,verilog,xil_defaultlib,../../../../laserLockingSimulator.gen/sources_1/ip/dataSampling_100kHz_0_1/sim/dataSampling_100kHz_0.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

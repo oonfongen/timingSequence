@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue May 14 11:30:57 2024
+# Process ID: 33426
+# Current directory: /home/fongen/vivadoSync/timingSequence/timingSequence.tmp/timingSequence_v1_0_project/timingSequence_v1_0_project.runs/synth_1
+# Command line: vivado -log timingSequence_v1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source timingSequence_v1_0.tcl
+# Log file: /home/fongen/vivadoSync/timingSequence/timingSequence.tmp/timingSequence_v1_0_project/timingSequence_v1_0_project.runs/synth_1/timingSequence_v1_0.vds
+# Journal file: /home/fongen/vivadoSync/timingSequence/timingSequence.tmp/timingSequence_v1_0_project/timingSequence_v1_0_project.runs/synth_1/vivado.jou
+# Running On: fongen, OS: Linux, CPU Frequency: 3300.000 MHz, CPU Physical cores: 4, Host memory: 16540 MB
+#-----------------------------------------------------------
+source timingSequence_v1_0.tcl -notrace
